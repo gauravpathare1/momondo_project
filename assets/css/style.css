@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.bg-deepblue{
+    background:#101B37;
+}
+.bg-pink{
+    background:#5D327A;
+}
+.bg-pink2{
+    background: #df3272;
+}
+/* ****************************** */
+nav select{
+    background: rgb(0, 0, 15);
+    color:white;
+    border:none;
+}
+.navbar .active{
+    color:#df3272 !important;
+}
+/* ******************************** */
+.banner{
+    background: url(../img/momondo\ banner\ image.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.nav-pills .nav-link {
+    color:#fff;
+    background:#4B3473;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #df3272;
+}
+/* ***************************************************************** */
+.fun{
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/horse\ background.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* ***********************************************************************  */
+.newsletter{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/aeroplane.jpeg);
+background-size: cover;
+background-position: center;
+   
+}
